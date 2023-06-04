@@ -18,10 +18,11 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 25px 0;
     width: 30rem;
-    height: 85vh;
+    gap: 2rem;
+    /* height: 95%; */
     border-radius: 10px;
     background-color: rgba(12, 10, 10, 0.726);   
 }
@@ -39,7 +40,7 @@ body{
     color: rgba(228, 225, 225, 0.836);
 }
 .head{
-    height: 30%;
+    height: 10rem;
     width: 89%;
     background-color: rgba(16, 15, 17, 0.884);
     border-radius: 10px;
