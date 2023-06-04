@@ -21,7 +21,7 @@ body{
     justify-content: space-between;
     padding: 25px 0;
     width: 30rem;
-    height: 40rem;
+    height: 100vh;
     border-radius: 10px;
     background-color: rgba(12, 10, 10, 0.726);   
 }
@@ -76,4 +76,11 @@ li{
     border-radius: 10px;
     background-color: rgb(16, 16, 245);
     /* color: rgb(255, 255, 255); */
+}
+
+@media (min-width: 400px) {
+    .frame{
+        height: 40rem;
+        background-color: brown;
+    }
 }
