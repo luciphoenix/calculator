@@ -38,6 +38,9 @@ body{
     font-size: 2rem;
     color: rgba(228, 225, 225, 0.836);
 }
+.ans-hide{
+    opacity: 0;
+}
 .head{
     height: 10rem;
     width: 89%;
